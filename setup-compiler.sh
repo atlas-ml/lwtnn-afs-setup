@@ -1,3 +1,9 @@
+# script to set up environment to compile lwtnn
+
+# these may be done by default for ATLAS people
+export ATLAS_LOCAL_ROOT_BASE=/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase
+alias setupATLAS='source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh'
+
 setupATLAS -q
 # localSetupGcc gcc492_x86_64_slc6
 localSetupROOT -q
